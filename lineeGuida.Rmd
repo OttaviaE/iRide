@@ -1,0 +1,59 @@
+---
+title: "Linee guida"
+description: |
+  A new article created using the Distill format.
+author:
+  - name: Ottavia
+    url:  
+    affiliation: Unipd
+    affiliation_url: https://www.unipd.it/
+date: "`r Sys.Date()`"
+output: distill::distill_article
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+
+
+# Per il paper 
+
+- "This includes providing the broader context, implementation details, applications or examples of use, with the purpose being to make the work relevant to a wider readership than only the package users. The paper might explain the novelty in implementation and use of R, introduce new data structures or general architectures that could be re-usable for other R projects"
+
+- Non più di 20 pagine 
+
+Nella submission vanno inclusi: 
+
+- i file per creare il paper (Rmd, tex, bib, sty le figure e gli output (pdf e html))
+
+- I file per riprodurre i risultati presentati nel paper (R scripts e dati)
+
+- Una lettera di presentazione 
+Va usato  un template specifico che si trova nel pacchetto `rjtools` (`create_article()`) $\rightarrow$ fornisce HTML e PDF 
+
+Bisogna cercare di usare meno tag possibili nel teso 8e.g., quelle specifiche solo di html o di PDF)
+
+vogliono i grafici interattivi per la stampa in html 
+
+# Per il pacchetto 
+
+Sono ripresi da qui: https://www.carlboettiger.info/2013/06/13/what-I-look-for-in-software-papers.html
+
+- automatic tests 
+
+- argomenti optional quando si utilizzano funzioni esterne (...)
+
+- Dare il link di github 
+
+- Citare i pacchetti usati 
+
+- Cercare di tenere le funzioni entro le 20 righe (più o meno), usare tante sottofunzioni
+
+- riportare la licenza
+
+- usare import non depends
+
+- buona documentazione, esempi chiari
+
+

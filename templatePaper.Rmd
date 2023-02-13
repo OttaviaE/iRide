@@ -1,0 +1,63 @@
+---
+title: "Paper pacchetto matrici"
+description: |
+  Struttura del paper per le matrici.
+author:
+  - name: Ottavia 
+    url: 
+    affiliation: 
+    affiliation_url: 
+date: "`r Sys.Date()`"
+output: distill::distill_article
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+# Introduction
+
+- Descrizione di quello che è presente in letteratura sulla generazione di matrici (a livello di software)
+
+- Presentazione delle regole 
+
+
+# Regole e loro classificazione
+
+- descrizione della classifcazione con esempio delle matrici
+
+- Tabella con le regole --> quali regole sono sviluppate nel pacchetto
+
+# Distrattori
+
+Riportare un po' la letteratura (minimo indispensabile)
+
+# IL sofwtare 
+
+La struttura del pacchetto: 
+
+## Generazione degli stimoli 
+
+- il campo field 
+
+- La legge Raven 
+
+- L'applicazione (apply) e il disegno effettivo della matrice 
+
+
+## Generazione dei distrattori
+
+Isolamento della risposta corretta e generazione dei distrattori secondo regole (in fase di definizione)
+
+## Esempi di stimoli secondo regole 
+
+Sarebbe carino mettere stimoli generati con le stesse regole 
+
+# Discussione
+
+Utilità del software open source sempre aggiornato, permette di fare disversi studi tipo quello che stimao facendo noi (equivalenza delle regole, influenza dei distarttori, permette di produrre in maniera sistematica gli stimoli con delle regole chiare e riproducibili, permette una classificazione e un confronto oggettivo le matrici i.e., le regole che sono impiegate per la loro generazione)
+
+
+Se avessimo già i dati dello studio preliminare sui distrattori e l'equivalenza sarebbe molto molto interessante
+
+
