@@ -1,35 +1,33 @@
 ---
-title: "An R package for the automatic generation of rule-based matrices"
+title: "MatriKS: An R package for the automatic generation of rule-based matrices"
 date: "2022-11-09"
 abstract: >
-  An abstract of less than 150 words.
+ Few resources are available for the automatic generation of Raven-like matrices. Some of them (e.g., Sandia) are no longer working, while others (e.g., Corvus) are hardly customizable without programming skills in java script. Although the IMak package automatically generates stimuli for psychological assessment, it is limited to one shape and the main rule it applies is the rotation of the elements. MatriKS is a new R package that has been developed for overcoming the abovementioned issues. MatriKS can generate matrices considering different types of rules, starting from the most basic ones (e.g., changes in size, objects orientation) to the most complex ones, based on inferential and inductive reasoning. This unveils the possibility of generating new customizable stimuli, which can be potentially be equivalent between each other.
 draft: true
 author:  
   # see ?rjournal_article for more information
   - name: Debora de Chiusole
     affiliation: Deparment of Philosofy, Sociology, Education and Applied Psychology, University of Padova
     address:
-    - Department of Letter Q
-    - Somewhere, Australia
-    url: https://www.britannica.com/animal/quokka
+    - Univerisity of Padova
+    - Italy
     orcid: 0000-1721-1511-1101
-    email:  qquo@ulm.edu
+    email:  debora.dechiusione@unipd.it
   - name: Andrea Brancaccio
     url: https://www.britannica.com/animal/bilby
-    email: bbil@ulm.edu
+    email: andrea.brancaccio@unipd.it
     orcid: 0000-0002-0912-0225
     affiliation: Deparment of Philosofy, Sociology, Education and Applied Psychology, University of Padova
     address:
-    - Department of Letter B
-    - Somewhere, Australia
+    - Univerisity of Padova
+    - Italy
   - name: Ottavia M. Epifania
-    url: https://www.britannica.com/animal/bilby
-    email: bbil@ulm.edu
+    email: ottavia.epifania@unipd.it
     orcid: 0000-0002-0912-0225
     affiliation: Deparment of Philosofy, Sociology, Education and Applied Psychology, University of Padova
     address:
-    - Department of Letter B
-    - Somewhere, Australia
+    - Univerisity of Padova
+    - Italy
 type: package
 output: 
   rjtools::rjournal_web_article:
